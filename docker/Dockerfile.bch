@@ -12,5 +12,5 @@ COPY . /app
 
 RUN pip install --no-cache-dir twisted zope.interface argparse
 
-EXPOSE 9334 9335
-CMD ["python", "run_p2pool.py", "--net", "bitcoin-cash"]
+EXPOSE 9333 9348
+CMD ["python", "run_p2pool.py", "--net", "bitcoincash"]

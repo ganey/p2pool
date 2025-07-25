@@ -1,0 +1,20 @@
+<Container>
+  <Name>p2pool-btc</Name>
+  <Repository>ghcr.io/ganey/p2pool-btc:latest</Repository>
+  <Network>bridge</Network>
+  <WebUI>http://[IP]:9332</WebUI>
+  <Icon>https://bitcoin.org/img/icons/opengraph.png</Icon>
+  <Ports>
+    <Port>
+      <ContainerPort>9332</ContainerPort>
+      <HostPort>9332</HostPort>
+      <Protocol>tcp</Protocol>
+    </Port>
+    <Port>
+      <ContainerPort>9333</ContainerPort>
+      <HostPort>9333</HostPort>
+      <Protocol>tcp</Protocol>
+    </Port>
+  </Ports>
+  <Description>P2Pool for Bitcoin</Description>
+</Container>

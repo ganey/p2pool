@@ -1,0 +1,20 @@
+<Container>
+  <Name>p2pool-bch</Name>
+  <Repository>ghcr.io/ganey/p2pool-bch:latest</Repository>
+  <Network>bridge</Network>
+  <WebUI>http://[IP]:9333</WebUI>
+  <Icon>https://www.bitcoincash.org/images/logo.png</Icon>
+  <Ports>
+    <Port>
+      <ContainerPort>9333</ContainerPort>
+      <HostPort>9333</HostPort>
+      <Protocol>tcp</Protocol>
+    </Port>
+    <Port>
+      <ContainerPort>9348</ContainerPort>
+      <HostPort>9348</HostPort>
+      <Protocol>tcp</Protocol>
+    </Port>
+  </Ports>
+  <Description>P2Pool for Bitcoin Cash</Description>
+</Container>

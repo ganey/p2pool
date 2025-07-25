@@ -1,0 +1,20 @@
+<Container>
+  <Name>p2pool-ltc</Name>
+  <Repository>ghcr.io/ganey/p2pool-ltc:latest</Repository>
+  <Network>bridge</Network>
+  <WebUI>http://[IP]:9333</WebUI>
+  <Icon>https://litecoin.org/img/litecoin.svg</Icon>
+  <Ports>
+    <Port>
+      <ContainerPort>9327</ContainerPort>
+      <HostPort>9327</HostPort>
+      <Protocol>tcp</Protocol>
+    </Port>
+    <Port>
+      <ContainerPort>9333</ContainerPort>
+      <HostPort>9333</HostPort>
+      <Protocol>tcp</Protocol>
+    </Port>
+  </Ports>
+  <Description>P2Pool for Litecoin</Description>
+</Container>
